@@ -176,8 +176,8 @@ export default function Hero() {
               </div>
             )}
 
-            {/* Readability Scrim Overlay — blends toward the text side, matches page background color */}
-            <div className="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-background via-background/30 to-transparent pointer-events-none transition-colors duration-300" />
+            {/* Subtle edge blend — kept light since photo and text never actually overlap in this layout */}
+            <div className="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-background/25 via-transparent to-transparent pointer-events-none transition-colors duration-300" />
           </div>
         </motion.div>
 
