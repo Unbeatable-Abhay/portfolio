@@ -1,0 +1,21 @@
+{
+  "name": "Abhay Chauhan",
+  "taglines": [
+    "B.Tech CSE-AI student building full-stack projects",
+    "Backend Developer & AI-ML Enthusiast"
+  ],
+  "email": "abhaychauhan4206@gmail.com",
+  "socials": {
+    "github": "https://github.com/Unbeatable-Abhay",
+    "linkedin": "https://linkedin.com/in/unbeatableabhay4206"
+  },
+  "about": "2nd-year B.Tech CSE-AI student at NIET, Greater Noida, passionate about building practical tools using Python and Flask, with a strong interest in automation and AI-integrated systems. Learns by building — taking ideas from concept to deployed product. Looking to contribute to real-world software projects while growing in a professional environment.",
+  "education": {
+    "institution": "Noida Institute of Engineering and Technology (NIET)",
+    "degree": "B.Tech, Computer Science Engineering (AI)",
+    "year": "2nd Year",
+    "location": "Greater Noida, Uttar Pradesh, India"
+  },
+  "resumeUrl": "/resume.pdf",
+  "photoUrl": "/profile-cutout.png"
+}

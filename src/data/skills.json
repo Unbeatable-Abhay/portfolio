@@ -1,0 +1,9 @@
+{
+  "categories": [
+    { "name": "Languages", "skills": ["Python", "JavaScript", "HTML", "CSS"] },
+    { "name": "Frameworks & Libraries", "skills": ["Flask", "React", "LangChain", "LangGraph", "discord.py", "SQLAlchemy"] },
+    { "name": "AI / ML Tools", "skills": ["Groq", "Ollama", "Replicate", "Tavily", "LangChain Agents"] },
+    { "name": "Tools & Platforms", "skills": ["Git", "GitHub", "Render", "Replit", "VS Code", "PyCharm"] },
+    { "name": "Concepts", "skills": ["REST APIs", "Data Structures & Algorithms"] }
+  ]
+}

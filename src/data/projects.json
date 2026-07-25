@@ -1,0 +1,100 @@
+{
+  "projects": [
+    {
+      "id": "dash",
+      "title": "Dash",
+      "description": "Personal infrastructure monitoring dashboard integrating Render, Tavily, cron-job.org, and GitHub APIs. Includes a Monitor tab with cron job drift graphs, PWA support, and light/dark themes.",
+      "techStack": ["Flask", "React", "Vite", "Render API", "Tavily", "cron-job.org API", "GitHub API"],
+      "githubUrl": "https://github.com/Unbeatable-Abhay/dash",
+      "liveUrl": "https://dash-mvip.onrender.com",
+      "imageUrl": "",
+      "featured": true,
+      "visible": true,
+      "order": 1
+    },
+    {
+      "id": "gov-awareness",
+      "title": "Gov Awareness",
+      "description": "AI-powered platform helping Indian citizens discover government schemes and understand their legal rights, with a ReAct agent (LangGraph + Groq LLaMA 3.3 70B + Tavily web search).",
+      "techStack": ["React", "Flask", "LangChain", "LangGraph", "Tavily", "Groq LLaMA 3.3 70B"],
+      "githubUrl": "https://github.com/Unbeatable-Abhay/gov_awareness",
+      "liveUrl": "https://gov-project-front.onrender.com",
+      "imageUrl": "",
+      "featured": true,
+      "visible": true,
+      "order": 2
+    },
+    {
+      "id": "beru-bot",
+      "title": "Beru Bot",
+      "description": "AI-powered Discord bot for automated text and video content generation (Groq + Replicate), with a custom web dashboard featuring a Bento-style asymmetric grid UI and dark/light theme toggle.",
+      "techStack": ["Flask", "Discord API", "Groq", "Replicate"],
+      "githubUrl": "https://github.com/Unbeatable-Abhay/beru_bot",
+      "liveUrl": "https://beru-bot-t7c6.onrender.com",
+      "imageUrl": "",
+      "featured": true,
+      "visible": true,
+      "order": 3
+    },
+    {
+      "id": "sync",
+      "title": "SYNC",
+      "description": "Student team-builder platform prototype — helps students find and connect with project teammates, with college email verification and profile pages. Pitched at Imperia hackathon with a warm minimal UI.",
+      "techStack": ["Flask", "HTML", "CSS"],
+      "githubUrl": "https://github.com/Unbeatable-Abhay/SYNC",
+      "liveUrl": "",
+      "imageUrl": "",
+      "featured": false,
+      "visible": true,
+      "order": 4
+    },
+    {
+      "id": "warehouse-management",
+      "title": "Warehouse Management System",
+      "description": "Flask-based inventory tracking system built as a DSA academic project — implements hash maps, binary search, and a linked-list stack for undo functionality.",
+      "techStack": ["Python", "Flask"],
+      "githubUrl": "https://github.com/Unbeatable-Abhay/warehoue_manager",
+      "liveUrl": "",
+      "imageUrl": "",
+      "featured": false,
+      "visible": true,
+      "order": 5
+    },
+    {
+      "id": "tic-tac-toe",
+      "title": "Tic Tac Toe",
+      "description": "PLACEHOLDER — details to be confirmed.",
+      "techStack": [],
+      "githubUrl": "https://github.com/Unbeatable-Abhay/Tic_Tac_Toe",
+      "liveUrl": "",
+      "imageUrl": "",
+      "featured": false,
+      "visible": false,
+      "order": 6
+    },
+    {
+      "id": "birthday-wisher",
+      "title": "Birthday Wisher",
+      "description": "PLACEHOLDER — automation project that sends birthday wishes. Details to be confirmed.",
+      "techStack": [],
+      "githubUrl": "https://github.com/Unbeatable-Abhay/birthday_wisher",
+      "liveUrl": "https://birthday-wisher-t2uz.onrender.com",
+      "imageUrl": "",
+      "featured": false,
+      "visible": false,
+      "order": 7
+    },
+    {
+      "id": "discord-bot",
+      "title": "Discord Bot",
+      "description": "PLACEHOLDER — standalone Discord bot project. Details to be confirmed.",
+      "techStack": ["discord.py"],
+      "githubUrl": "https://github.com/Unbeatable-Abhay/discord_bot",
+      "liveUrl": "",
+      "imageUrl": "",
+      "featured": false,
+      "visible": false,
+      "order": 8
+    }
+  ]
+}
