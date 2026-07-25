@@ -13,11 +13,11 @@
       "order": 1
     },
     {
-      "id": "gov-awareness",
-      "title": "Gov Awareness",
+      "id": "sarkarly",
+      "title": "Sarkarly",
       "description": "AI-powered platform helping Indian citizens discover government schemes and understand their legal rights, with a ReAct agent (LangGraph + Groq LLaMA 3.3 70B + Tavily web search).",
       "techStack": ["React", "Flask", "LangChain", "LangGraph", "Tavily", "Groq LLaMA 3.3 70B"],
-      "githubUrl": "https://github.com/Unbeatable-Abhay/gov_awareness",
+      "githubUrl": "https://github.com/Unbeatable-Abhay/sarkarly",
       "liveUrl": "https://gov-project-front.onrender.com",
       "imageUrl": "",
       "featured": true,
@@ -44,7 +44,7 @@
       "githubUrl": "https://github.com/Unbeatable-Abhay/SYNC",
       "liveUrl": "",
       "imageUrl": "",
-      "featured": false,
+      "featured": true,
       "visible": true,
       "order": 4
     },
