@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Github, Linkedin, Mail, ArrowRight, Download } from "lucide-react";
 import { motion } from "framer-motion";
 import bio from "../../data/bio.json";
+import { trackEvent } from "../../utils/analytics";
 
 export default function Hero() {
   const { name, taglines, email, socials, about, resumeUrl, photoUrl } = bio;
@@ -96,6 +97,7 @@ export default function Hero() {
             <a
               href={resumeUrl}
               download
+              onClick={() => trackEvent("resume_download", { location: "hero" })}
               className="inline-flex items-center space-x-2 border border-accent/30 text-text px-6 py-3 rounded-full font-medium hover:bg-accent/5 hover:border-accent hover:-translate-y-0.5 transition-all duration-300"
             >
               <Download className="w-4 h-4 text-accent" />

@@ -1,6 +1,7 @@
 import { Github, Linkedin, Mail, ArrowUpRight, Download } from "lucide-react";
 import { motion } from "framer-motion";
 import bio from "../../data/bio.json";
+import { trackEvent } from "../../utils/analytics";
 
 export default function Contact() {
   const { email, socials, resumeUrl } = bio;
@@ -83,6 +84,7 @@ export default function Contact() {
             <motion.a
               href={resumeUrl}
               download
+              onClick={() => trackEvent("resume_download", { location: "contact" })}
               initial={{ opacity: 0, y: 16 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.3 }}
