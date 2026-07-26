@@ -66,16 +66,16 @@ export default function Contact() {
                 whileHover={{ y: -2 }}
                 className="group flex items-center justify-between w-full rounded-2xl border border-accent-secondary/20 bg-accent-secondary/5 px-6 py-5 hover:border-accent/40 hover:bg-accent-secondary/10 transition-colors duration-300"
               >
-                <div className="flex items-center space-x-4">
-                  <div className="p-3 rounded-full bg-accent-secondary/20 text-accent group-hover:bg-accent/10 transition-colors duration-300">
+                <div className="flex items-center space-x-4 min-w-0 flex-1">
+                  <div className="p-3 rounded-full bg-accent-secondary/20 text-accent group-hover:bg-accent/10 transition-colors duration-300 shrink-0">
                     <Icon className="w-5 h-5" />
                   </div>
-                  <div className="text-left">
+                  <div className="text-left min-w-0">
                     <p className="text-sm font-medium text-text/60">{link.label}</p>
-                    <p className="text-base font-medium text-text">{link.value}</p>
+                    <p className="text-base font-medium text-text break-all">{link.value}</p>
                   </div>
                 </div>
-                <ArrowUpRight className="w-5 h-5 text-text/40 group-hover:text-accent group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all duration-300" />
+                <ArrowUpRight className="w-5 h-5 text-text/40 group-hover:text-accent group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all duration-300 shrink-0 ml-3" />
               </motion.a>
             );
           })}
