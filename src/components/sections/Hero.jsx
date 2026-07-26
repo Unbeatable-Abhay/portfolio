@@ -5,7 +5,7 @@ import bio from "../../data/bio.json";
 import { trackEvent } from "../../utils/analytics";
 
 export default function Hero() {
-  const { name, taglines, email, socials, about, resumeUrl, photoUrl } = bio;
+  const { name, taglines, email, socials, heroIntro, resumeUrl, photoUrl } = bio;
 
   // Typewriter tagline animation states
   const [currentTaglineIndex, setCurrentTaglineIndex] = useState(0);
@@ -81,8 +81,8 @@ export default function Hero() {
             </p>
           </div>
 
-          <p className="text-base md:text-lg text-text/70 leading-relaxed max-w-xl">
-            {about}
+          <p className="text-base md:text-lg text-text/70 leading-relaxed max-w-md">
+            {heroIntro}
           </p>
 
           {/* CTA Buttons */}

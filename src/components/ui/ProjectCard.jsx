@@ -22,7 +22,7 @@ export default function ProjectCard({ project }) {
       whileHover={{ y: -6 }}
       className={`relative group flex flex-col h-full p-6 md:p-8 rounded-2xl border bg-accent-secondary/5 dark:bg-accent-secondary/10 transition-all duration-500 ${
         featured
-          ? "lg:col-span-2 border-accent/20 dark:border-accent/15 shadow-sm shadow-accent/5 hover:shadow-md hover:shadow-accent/10"
+          ? "border-accent/20 dark:border-accent/15 shadow-sm shadow-accent/5 hover:shadow-md hover:shadow-accent/10"
           : "border-accent-secondary/20 hover:shadow-sm"
       } hover:border-accent/40`}
     >

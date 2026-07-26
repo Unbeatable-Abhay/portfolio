@@ -41,13 +41,13 @@ export default function Projects() {
           <div className="mt-2 h-1 w-12 bg-accent mx-auto rounded-full" />
         </motion.div>
 
-        {/* Bento Grid layout for cards */}
+        {/* Stacked single-column layout — avoids awkward gaps since most projects are featured */}
         <motion.div
           variants={containerVariants}
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, margin: "-100px" }}
-          className="grid grid-cols-1 lg:grid-cols-3 gap-6 md:gap-8"
+          className="grid grid-cols-1 gap-6 md:gap-8 max-w-3xl mx-auto"
         >
           {displayProjects.map((project) => (
             <ProjectCard key={project.id} project={project} />

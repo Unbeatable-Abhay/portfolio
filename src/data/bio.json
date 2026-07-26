@@ -9,7 +9,8 @@
     "github": "https://github.com/Unbeatable-Abhay",
     "linkedin": "https://linkedin.com/in/unbeatableabhay4206"
   },
-  "about": "2nd-year B.Tech CSE-AI student at NIET, Greater Noida, passionate about building practical tools using Python and Flask, with a strong interest in automation and AI-integrated systems. Learns by building — taking ideas from concept to deployed product. Looking to contribute to real-world software projects while growing in a professional environment.",
+  "heroIntro": "2nd-year B.Tech CSE-AI student building practical tools with Python, Flask, and AI-integrated systems.",
+  "about": "Ever since childhood, I've been the kind of person who wants to know how things work — that curiosity is what pulled me toward technology. Now a 2nd-year B.Tech CSE-AI student at NIET, Greater Noida, I enjoy building practical tools using Python and Flask, with a growing interest in automation and AI-integrated systems. I learn by building — taking ideas from concept to deployed product — and I'm currently focused on my studies while looking for internship opportunities to apply what I'm learning in a real-world setting, with the goal of stepping into a full-time role after graduation.",
   "education": {
     "institution": "Noida Institute of Engineering and Technology (NIET)",
     "degree": "B.Tech, Computer Science Engineering (AI)",
