@@ -18,7 +18,7 @@ export default function Navbar() {
   };
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-accent-secondary/10 bg-background/80 backdrop-blur-md transition-colors duration-300">
+    <header className="fixed inset-x-0 top-0 z-50 border-b border-accent-secondary/10 bg-background/10 backdrop-blur-md transition-colors duration-300">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-end px-4 sm:px-6 lg:px-8">
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-8" aria-label="Main navigation">
